@@ -1,5 +1,5 @@
 {
-  "name": "@mi/fis-preprocessor-dependency-injection",
+  "name": "fis-preprocessor-dependency-injection",
   "version": "0.0.1",
   "description": "Dependency Injection",
   "main": "index.js",
