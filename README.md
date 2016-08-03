@@ -19,12 +19,12 @@
            preprocessor: {
              'dependency-injection': [
                {
-                 targetFile: 'views/index/index.html',
-                 dependencyFile: 'Injection/mobile-web.js'
+                 targetFile: 'views/.*html',
+                 dependencyFile: 'Injection/.*js'
                },
                {
                  targetFile: ['views/search/search-guide.html'],
-                 dependencyFile: ['Injection/mobile-web.js', 'Injection/mobile-web.css', 'assets/js/global.js', 'views/index/index.js']
+                 dependencyFile: ['Injection/.*', 'assets/js/global.js', 'views/index/index.js']
                }
              ]
            }   
