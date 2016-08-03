@@ -29,4 +29,14 @@
              ]
            }   
      ```
+     或者
+     ```
+      settings: {
+            preprocessor: {
+              dependency-injection': {    
+                  targetFile: 'views/index/index.html',
+                  dependencyFile: 'Injection/.*'
+               }
+            }   
+      ```
         
